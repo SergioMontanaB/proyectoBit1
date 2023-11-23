@@ -1,0 +1,24 @@
+@media (max-width:1200px) {
+    .banner-text{
+        font-size: 40px;
+        transform: translate(-62px, 21px);
+    }
+    .first-slider{
+        transform: translate(-194px, -8px);
+    }
+    .third-slider{
+        transform: translate(-817px, -144px);
+    }
+    .sub-banner{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:1200px) {
+    .footer-bg{
+        height: 500px;
+    }
+    .social-media-box{
+        margin-left: 80px;
+    }
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.subnaver-font{
+    font-family: 'Staatliches', sans-serif;
+}
+
+.banner-slider{
+    height: 500px !important;
+}
+
+.banner-text{
+    font-size: 85px;
+    transform: translate(-94px, -53px);
+}
+
+.third-slider{
+    transform: translate(-48px, -107px);
+}
+
+.sub-banner{
+    height: 100px;
+    background-image: url(../img/banner/sub-banner-bg.webp);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF9E9;
+    font-size: 50px;
+}
+
+.footer-bg{
+    height: 300px;
+    background-color: #432818;
+}
+
+.footer-options{
+    list-style-type: none;
+}
+
+.option-box-footer1{
+    color: #FFF9E9;
+}
+
+.option-box-footer1:hover{
+    color: #fae8b5;
+}
+
+.box2-footer{
+    width: 100%;
+}
+
+.line-footer{
+    border: 0.5px solid #FFF9E9;
+    width: 90%;
+}
+
+.option-box-footer2{
+    color: #fae8b5;
+    font-size: 11px;
+}
+
+.option-box-footer2:hover{
+    color: #FFF9E9;
+}
+
+.social-media-btn{
+    background-color: #352014;
+    color: #FFF9E9;
+}
+
+.social-media-btn:hover{
+    background-color: #855f49;
+    color: #352014;
+}
+
+.android-ios{
+    width: 110px;
+}
