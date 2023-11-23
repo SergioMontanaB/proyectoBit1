@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.categorias {
+    font-family: 'Staatliches', sans-serif;
+}
+
+.dimension {
+    height: 350px;
+}
+
+.configHover{
+    transition: 600ms all;
+
+}
+
+.zapatos {
+    background-image: url(../img/categoría_zapatos.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.fullLook {
+    background-image: url(../img/categoria_fulllook.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.streetwear {
+    background-image: url(../img/categoría_streetwear.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.accesorios {
+    background-image: url(../img/categoría_accesorios.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.novedades {
+    background-image: url(../img/categoría_novedades.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.deportiva {
+    background-image: url(../img/categoría_deportiva.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mas {
+    background-image: url(../img/categoría_mas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.amsiedad{
+    padding-left: 37px;
+}
+
+.hoverImg:hover {
+    filter: grayscale(100%);
+}
