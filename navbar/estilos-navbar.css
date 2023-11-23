@@ -1,0 +1,105 @@
+a{
+    font-family: 'Newsreader', serif;
+    font-family: 'Staatliches', sans-serif;
+    text-decoration: none !important;
+}
+.navbar{
+    background-color: #432818;
+}
+.navbar-brand{
+    color: #FFE6A7 !important;
+    font-size: 3rem !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.barraBusqueda{
+    width: 60%;
+}
+.form-control{
+    border-radius: 100px !important;
+    
+}
+::placeholder{
+    color: #EDD1A6;
+    font-weight: 500;
+}
+/* CSS */
+.barraBusqueda {
+    width: 60%;
+    transition: background-color 0.3s ease; /* Agrega una transición suave */
+}
+
+.barraBusqueda input[type="search"]:focus {
+    background-color: #c79172 !important; /* Cambia el color al darle clic */
+    box-shadow: none;
+}
+
+.barraBusqueda:active{
+    background-color: #432818 !important;
+}
+.shopping-car{
+    width: 50px;
+    height: 50px;
+}
+input.form-control{
+    background-color: #BB9457;
+    border: none;
+}
+/* CSS */
+.form-control::placeholder {
+    color:#EDD1A6 ; 
+}
+.nav-link{
+    color:  #DCC28C !important;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        display: none; /* Ocultar la lista de navegación por defecto en dispositivos pequeños */
+    }
+
+    .collapse.show {
+        display: none; /* Mostrar la lista de navegación cuando está abierta */
+    }
+
+    .navbar-toggler {
+        display: none; /* Mostrar el toggler en dispositivos móviles */
+    }
+    .barraBusqueda{
+        display: none;
+    }
+    .listaPeque{
+        background-color: #EDD1A6;
+       
+    
+    }
+    .listaPeque a{
+        color: #432818 !important;
+        font-weight: 500;
+        padding: 10px;
+
+    }
+
+    
+}
+
+/* Estilos para pantallas más grandes */
+@media (min-width: 768px) {
+    .navbar-collapse {
+        display: flex !important; /* Asegurar que la lista de navegación sea visible en pantallas más grandes */
+        flex-direction: row;
+    }
+
+    .navbar-toggler {
+        display: none; /* Ocultar el toggler en pantallas más grandes */
+    }
+    .listaPeque{
+        display: none;
+    }
+}
+
+
