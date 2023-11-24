@@ -75,3 +75,74 @@
 .android-ios{
     width: 110px;
 }
+
+
+/* productos style----------------------------------------------------------- */
+
+.category-title{
+    background-color: #fae8b5;
+    color: #432818;
+    height: 50px;
+}
+
+.btn-añadir-producto{
+    background-color: #352014;
+    color: #fae8b5;
+}
+
+.btn-añadir-producto:hover{
+    background-color: #422e22;
+    color: #fae8b5;
+}
+
+.img-producto1{
+    height: 427px;
+    background-image: url(../img/productos/shoes1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1000ms;
+}
+
+.img-producto1:hover{
+    background-image: url(../img/productos/shoes1-hover.jpg);
+}
+
+.img-producto2{
+    height: 427px;
+    background-image: url(../img/productos/shoes2.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1000ms;
+}
+
+.img-producto2:hover{
+    background-image: url(../img/productos/shoes2-hover.webp);
+}
+
+.img-producto3{
+    height: 427px;
+    background-image: url(../img/productos/shoes3.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1000ms;
+}
+
+.img-producto3:hover{
+    background-image: url(../img/productos/shoes3-hover.webp);
+}
+
+.img-producto4{
+    height: 427px;
+    background-image: url(../img/productos/shoes4.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1000ms;
+}
+
+.img-producto4:hover{
+    background-image: url(../img/productos/shoes4-hover.webp);
+}
