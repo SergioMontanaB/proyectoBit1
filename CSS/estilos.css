@@ -146,3 +146,84 @@
 .img-producto4:hover{
     background-image: url(../img/productos/shoes4-hover.webp);
 }
+
+/* Air Jordan 4 - detalle ------------------------------------------------------ */
+
+.sidebar-photos{
+    width: 400px;
+    margin-right: -300px;
+}
+
+.shoes-sidebar{
+    width: 80px !important;
+    height: 80px !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shoes-box1{
+    background-image: url(https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ed24ef44-0d7c-43fa-b8a5-552aea0acafd/air-jordan-4-craft-olive-mens-shoes-GmXFz0.png);
+}
+
+.shoes-box2{
+    background-image: url(https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3d121729-40bc-4384-9e29-32c179f8e864/air-jordan-4-craft-olive-mens-shoes-GmXFz0.png);
+}
+
+.shoes-box3{
+    background-image: url(https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/39d2c785-0691-4191-a8af-c725f21c75df/air-jordan-4-craft-olive-mens-shoes-GmXFz0.png);
+}
+
+.shoes-box4{
+    background-image: url(https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c673439e-bc4e-471d-8db0-d5a33976defb/air-jordan-4-craft-olive-mens-shoes-GmXFz0.png);
+}
+
+.shoes-box5{
+    background-image: url(https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/40abb817-6549-475c-bb5c-7fdf517250d9/air-jordan-4-craft-olive-mens-shoes-GmXFz0.png);
+}
+
+.shoes-box6{
+    background-image: url(https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/25bd2ef6-0221-497c-8630-d7b58352f211/air-jordan-4-craft-olive-mens-shoes-GmXFz0.png);
+}
+
+.main-slider-producto{
+    margin-right: 100px;
+}
+
+.producto-slider{
+    width: 500px;
+    height: 500px;
+}
+
+.img-shoes-slider{
+    width: 500px;
+    height: 562px;
+}
+
+.select-tallas{
+    height: 40px;
+}
+
+.line-box-producto{
+    border: 1px solid #9e9b94;
+    width: 100%;
+}
+
+.shoe-feature{
+    color: #9e9b94;
+    font-size: 14px;
+}
+
+.btn-heart:hover{
+    background-color: #c1121f;
+    color: #fdf0d5;
+}
+
+.img-producto-add{
+    height: 205px;
+}
+
+.card-img-producto-add{
+    height: 400px;
+    width: 250px;
+}
