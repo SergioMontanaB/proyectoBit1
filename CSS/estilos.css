@@ -85,12 +85,12 @@
     height: 50px;
 }
 
-.btn-añadir-producto{
+.btn-add-producto{
     background-color: #352014;
     color: #fae8b5;
 }
 
-.btn-añadir-producto:hover{
+.btn-add-producto:hover{
     background-color: #422e22;
     color: #fae8b5;
 }
