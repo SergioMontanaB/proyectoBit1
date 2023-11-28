@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300&family=Staatliches&display=swap" rel="stylesheet">
+    <!-- Enlaces a los archivos CSS -->
+    <link rel="stylesheet" href="CSS/estilos.css"> <!-- Asegúrate de que la ruta al archivo CSS sea correcta -->
+    <link rel="stylesheet" href="./estilos-navbar.css">
+    
+    <!-- Enlaces a las hojas de estilos de Bootstrap y Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-nO7j+tbXoE2dlnb8KlcZGe+R/yQ6WKr9RP5IOJ5X5JAsxK6q+ynXXfwL2U5KFv7J0dYlvA8vEzsJ3iIQlVk8QA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+
+
+
+
+
+    
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <!-- Un solo row que envuelve todo excepto el botón de toggle -->
+                <div class="col-lg-2 col-xs-12">
+                    <!-- Logo -->
+                    <a class="navbar-brand me-5 ms-3 text-xs-center" href="#">
+                        <span class=""> ABC ABC ABC</span>
+                    </a>
+                </div>
+                <!-- Formulario de búsqueda -->
+                <div class="col-lg-8 col-sm-6 d-flex justify-content-center">
+                    <form class="barraBusqueda " role="search">
+                        <input class="form-control me-2" type="search" placeholder="BUSCAR" aria-label="Search">
+                    </form>
+                </div>
+            
+            <!-- Elemento de la barra de navegación -->
+            
+                <div class="col-lg-2  d-flex flex-row">
+                    <div class="collapse navbar-collapse flex-sm-row" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <!-- Tus elementos de menú -->
+                            <li class="nav-item pt-2 pe-3 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 29 31" fill="none">
+                                    <path d="M12.0623 23.1556C14.0922 23.1556 15.7378 24.9117 15.7378 27.0778C15.7378 29.244 14.0922 31 12.0623 31C10.0324 31 8.3868 29.244 8.3868 27.0778C8.3868 24.9117 10.0324 23.1556 12.0623 23.1556ZM12.0623 28.3044C12.6971 28.3044 13.2117 27.7552 13.2117 27.0779C13.2117 26.4005 12.6971 25.8513 12.0623 25.8513C11.4275 25.8513 10.9129 26.4005 10.9129 27.0779C10.9129 27.7553 11.4275 28.3044 12.0623 28.3044ZM22.912 23.1556C24.9419 23.1556 26.5875 24.9117 26.5875 27.0778C26.5875 29.244 24.9419 31 22.912 31C20.8821 31 19.2365 29.244 19.2365 27.0778C19.2365 24.9117 20.8821 23.1556 22.912 23.1556H22.912ZM22.912 28.3044C23.5468 28.3044 24.0614 27.7552 24.0614 27.0779C24.0614 26.4005 23.5468 25.8513 22.912 25.8513C22.2772 25.8513 21.7626 26.4005 21.7626 27.0779C21.7626 27.7553 22.2772 28.3044 22.912 28.3044ZM22.8867 25.8513H10.2551C7.89385 25.8513 5.97966 23.8087 5.97966 21.2889C5.97966 19.1755 7.32631 17.3976 9.15394 16.8793L9.18373 16.8721L5.6156 4.44782C5.30438 3.4233 4.41812 2.69559 3.37252 2.69559H0V0H3.37882C5.54711 0 7.38433 1.51228 8.0147 3.60237L8.02429 3.63915V3.65262L12.5536 19.4222H10.2561C9.29 19.4222 8.50677 20.258 8.50677 21.289C8.50677 22.32 9.28998 23.1557 10.2561 23.1557H22.8868L22.8867 25.8513ZM26.2768 19.4221H10.8497V16.7266H24.3721L26.4738 8.88219V7.84442H8.44989V5.14874H29V9.25958L26.2768 19.4221Z" fill="#FFE6A7"/>
+                                  </svg>
+                            </li>
+                            <li class="nav-item pe-3">
+                                <a class="nav-link" href="./registro.html">Registro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+           
+            
+            <!-- Botón de menú para dispositivos móviles -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            
+        </div>
+    </nav>
+<div class="listaPeque pt-3">
+    <div class="row">
+        <div class="col-4 ps-5 ">
+            <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                <path d="M9.02778 21.0526C8.61573 21.0526 8.21294 21.1684 7.87034 21.3853C7.52774 21.6021 7.26071 21.9104 7.10303 22.271C6.94535 22.6317 6.90409 23.0285 6.98447 23.4114C7.06486 23.7942 7.26328 24.1459 7.55464 24.4219C7.846 24.6979 8.21721 24.8859 8.62134 24.9621C9.02547 25.0382 9.44436 24.9991 9.82503 24.8498C10.2057 24.7004 10.5311 24.4474 10.76 24.1228C10.9889 23.7983 11.1111 23.4167 11.1111 23.0263C11.1111 22.5029 10.8916 22.0008 10.5009 21.6307C10.1102 21.2606 9.58031 21.0526 9.02778 21.0526ZM23.6111 17.1053H6.94444C6.57609 17.1053 6.22282 16.9666 5.96235 16.7199C5.70188 16.4731 5.55556 16.1384 5.55556 15.7895C5.55556 15.4405 5.70188 15.1058 5.96235 14.8591C6.22282 14.6123 6.57609 14.4737 6.94444 14.4737H18.7378C19.6425 14.4709 20.522 14.1905 21.2443 13.6743C21.9667 13.1582 22.493 12.4342 22.7444 11.6108L24.9464 4.30908C25.0055 4.11325 25.0158 3.90711 24.9765 3.70687C24.9372 3.50664 24.8493 3.31778 24.7199 3.15517C24.5905 2.99256 24.4229 2.86063 24.2305 2.76978C24.0381 2.67892 23.8261 2.63161 23.6111 2.63158H6.58204C6.29452 1.86495 5.7645 1.20093 5.0642 0.730018C4.3639 0.259103 3.52737 0.00418519 2.6686 0H1.38889C1.02053 0 0.667263 0.138627 0.406796 0.385386C0.146329 0.632144 0 0.96682 0 1.31579C0 1.66476 0.146329 1.99943 0.406796 2.24619C0.667263 2.49295 1.02053 2.63158 1.38889 2.63158H2.6686C2.9701 2.63258 3.26315 2.72607 3.50387 2.89807C3.74459 3.07006 3.92002 3.3113 4.0039 3.58566L4.2199 4.30242L4.22024 4.30908L6.49889 11.8646C5.43856 11.9727 4.46232 12.4618 3.7712 13.2312C3.08008 14.0007 2.72669 14.9919 2.78379 16.0008C2.84089 17.0096 3.30413 17.9594 4.07814 18.6544C4.85215 19.3494 5.878 19.7368 6.94444 19.7368H23.6111C23.9795 19.7368 24.3327 19.5982 24.5932 19.3515C24.8537 19.1047 25 18.77 25 18.4211C25 18.0721 24.8537 17.7374 24.5932 17.4906C24.3327 17.2439 23.9795 17.1053 23.6111 17.1053ZM21.7699 5.26316L20.0738 10.8874C19.99 11.162 19.8145 11.4034 19.5736 11.5756C19.3328 11.7477 19.0395 11.8412 18.7378 11.8421H9.3811L9.02701 10.6681L7.39781 5.26316H21.7699ZM20.1389 21.0526C19.7268 21.0526 19.3241 21.1684 18.9815 21.3853C18.6388 21.6021 18.3718 21.9104 18.2141 22.271C18.0565 22.6317 18.0152 23.0285 18.0956 23.4114C18.176 23.7942 18.3744 24.1459 18.6657 24.4219C18.9571 24.6979 19.3283 24.8859 19.7325 24.9621C20.1366 25.0382 20.5555 24.9991 20.9361 24.8498C21.3168 24.7004 21.6422 24.4474 21.8711 24.1228C22.1 23.7983 22.2222 23.4167 22.2222 23.0263C22.2222 22.5029 22.0027 22.0008 21.612 21.6307C21.2213 21.2606 20.6914 21.0526 20.1389 21.0526Z" fill="#432818"/>
+              </svg></a>
+        </div>
+        <div class="col-4 ps-5">
+                <a href="#">Login</a>
+        </div>
+        <div class="col-4 ps-5">
+            <a href="#">Contacto</a>
+        </div>
+
+    </div>
+</div>
+    
+
+    <!-- Script de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
