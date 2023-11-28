@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
+:root {
+    --color-nombre: #FFE6A7;
+    --color-login: #655432;
+    --color-gris: #D9D9D9;
+    --color-placeholder: #939393;
+    --color-amarillo-quemado: #C6AE72;
+    --color-cafe: #432818;
+    --color-division: #979797;
+    --color-footer: #7C7C7C;
+}
+
+* {
+    font-family: 'Staatliches', sans-serif;
+}
+
 .subnaver-font{
     font-family: 'Staatliches', sans-serif;
 }
@@ -226,4 +241,146 @@
 .card-img-producto-add{
     height: 400px;
     width: 250px;
+}
+
+.dimension {
+    height: 350px;
+}
+
+.configHover {
+    transition: 600ms all;
+
+}
+
+.zapatos {
+    background-image: url(../img/categoría_zapatos.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.fullLook {
+    background-image: url(../img/categoria_fulllook.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.streetwear {
+    background-image: url(../img/categoría_streetwear.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.accesorios {
+    background-image: url(../img/categoría_accesorios.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.novedades {
+    background-image: url(../img/categoría_novedades.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.deportiva {
+    background-image: url(../img/categoría_deportiva.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mas {
+    background-image: url(../img/categoría_mas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.amsiedad {
+    padding-left: 37px;
+}
+
+.hoverImg:hover {
+    filter: grayscale(100%);
+    text-decoration: underline;
+}
+
+/* ------------------------login--------------------------- */
+
+.login {
+    background: linear-gradient(0deg, #FFFCFB 0%, var(--color-login) 48.44%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.nombre {
+    color: var(--color-nombre);
+}
+
+.tituloLogin {
+    color: var(--color-cafe);
+}
+
+.formulario {
+    width: 613px;
+}
+
+.imputLogin {
+    background-color: var(--color-gris);
+}
+
+.imputLogin::placeholder {
+    color: var(--color-placeholder);
+}
+
+.olvidasteContraseña {
+    color: var(--color-amarillo-quemado);
+}
+
+.botonLogin {
+    background-color: var(--color-cafe);
+    color: white;
+    width: 159px;
+    height: 53px;
+}
+
+.botonLogin:hover {
+    border-color: var(--color-cafe);
+    color: var(--color-cafe);
+}
+
+.division {
+    color: var(--color-division);
+}
+
+.lineaDivision {
+    margin: 0 20px;
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-division);
+}
+
+.textoDivision {
+    white-space: nowrap;
+}
+
+.logosLogin {
+    width: 30px;
+    height: 30px;
+}
+
+.vinetas {
+    list-style-type: none;
+}
+
+.linksFooter {
+    width: 50%;
+    white-space: nowrap;
+    color: var(--color-footer);
 }
