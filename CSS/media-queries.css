@@ -45,3 +45,30 @@
         width: 420px;
     }
 }
+@media (max-width: 992px) {
+
+    .novedades,
+    .mas {
+        height: 350px !important;
+        background-position-y: -121px;
+        background-size: cover;
+    }
+
+    .cajaNovedades {
+        padding: 3px 0px;
+    }
+
+    .zapatos {
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1400px) {
+    .amsiedad {
+        padding-left: 0;
+    }
+}
+
+/*---------------------login----------------------*/
+
