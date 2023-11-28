@@ -1,7 +1,7 @@
 body{
     background-color: rgb(230, 230, 230);
 }
-p{
+*{
     font-family: 'Staatliches', sans-serif;
 }
 .form_group{
