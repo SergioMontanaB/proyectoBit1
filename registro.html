@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="CSS/estilos-registro.css">
+    <link rel="stylesheet" href="./CSS/estilos.css">
     <link rel="stylesheet" href="CSS/estilos-navbar.css">
     <title>SUBNAVER - Registro</title>
 </head>
@@ -93,33 +93,43 @@
         </div>
     </div>
 
-    <div class="container mt-4">
-        <div class="form_area">
-            <p class="title">Registrate</p>
-            <form action="">
-                <div class="form_group">
-                    <label class="sub_title" for="name">Nombre</label>
-                    <input placeholder="Nombre completo" class="form_style" type="text">
-                </div>
-                <div class="form_group">
-                    <label class="sub_title" for="email">Email</label>
-                    <input placeholder="Correo Electronico" id="email" class="form_style" type="email">
-                </div>
-                <div class="form_group">
-                    <label class="sub_title" for="password">Contrasena</label>
-                    <input placeholder="Constrasena" id="password" class="form_style" type="password">
-                </div>
-                <div>
-                    <button class="btn">SIGN UP</button>
-                    <p>Ya tiene una cuenta? <a class="link" href="">Ingrese aqui!</a></p><a class="link" href="">
-                    </a>
-                </div><a class="link" href="">
-
-                </a>
-            </form>
-        </div><a class="link" href="">
-        </a>
-    </div>
+    <section class="d-flex justify-content-center mb-5 mt-3 col-s-5">
+        <form class="formulario bg-white p-5 rounded-5">
+            <label class="tituloLogin fs-1 pb-3">REGÍSTRATE</label>
+            <div class="mb-3">
+                <input type="email" class="imputLogin p-2 form-control" id="exampleInputEmail1"
+                    placeholder="Correo electrónico o número de teléfono" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <input type="password" class="imputLogin form-control" id="exampleInputPassword1"
+                    placeholder="Contraseña">
+            </div>
+            <div>
+                <a href="./login.html">¿YA TIENES CUENTA?</a>
+            </div>
+           
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="botonLogin btn rounded-pill fs-5">Registrarse</button>
+            </div>
+            <div class="division my-5 d-flex justify-content-center align-items-center">
+                <div class="lineaDivision"></div>
+                <div class="fs-6 textoDivision">o continua con</div>
+                <div class="lineaDivision"></div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <button class="btn border border-2 rounded p-2 mx-3">
+                    <img class="logosLogin" src="img/logoGoogle.png" alt="logoGoogle">
+                </button>
+                <button class="btn border border-2 rounded p-2 mx-3">
+                    <img class="logosLogin" src="img/logoFacebook.png" alt="logoFacebook">
+                </button>
+                <button class="btn border border-2 rounded p-2 mx-3">
+                    <img class="logosLogin" src="img/logoApple.png" alt="logoApple">
+                </button>
+            </div>
+        </form>
+    </section>
+    
 </body>
 
 </html>
